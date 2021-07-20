@@ -1,15 +1,15 @@
 // SLIDER TRENDING
 .contenedor-tendencias{
-    background-color: rgb(233, 232, 232);
+    background-color: #F3F5F8;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: -230px;
+    margin-top: -270px;
 }
 
 .contenedor-tendencias-busqueda{
     margin-top: 30px;
-    background-color: rgb(233, 232, 232);
+    background-color: #F3F5F8;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -117,5 +117,11 @@
     margin: auto;
 }
 @media (min-width: 800px) {
-    
+    .contenedor-tendencias{
+        margin-top: -390px;
+    }
+
+    .contenedor-tendencias-busqueda{
+        margin-top: 70px;
+    }
 }

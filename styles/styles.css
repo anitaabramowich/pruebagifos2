@@ -358,6 +358,16 @@ header::after {
   margin-top: 40px;
 }
 
+.linea-divisora {
+  background-color: #9CAFC3;
+  width: 160px;
+  height: 1px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  opacity: 50%;
+}
+
 .gifresults {
   width: 120px;
   height: 120px;
@@ -407,19 +417,32 @@ header::after {
     margin-top: -45px;
     margin-left: 220px;
   }
+  .results {
+    -ms-grid-columns: 170px 170px 170px 170px;
+        grid-template-columns: 170px 170px 170px 170px;
+    -ms-grid-rows: 170px 170px;
+        grid-template-rows: 170px 170px;
+  }
+  .gifresults {
+    width: 170px;
+    height: 170px;
+  }
+  .linea-divisora {
+    width: 260px;
+  }
 }
 
 .contenedor-tendencias {
-  background-color: #e9e8e8;
+  background-color: #F3F5F8;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: -230px;
+  margin-top: -270px;
 }
 
 .contenedor-tendencias-busqueda {
   margin-top: 30px;
-  background-color: #e9e8e8;
+  background-color: #F3F5F8;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -538,6 +561,47 @@ header::after {
 .caja-texto-trending {
   display: block;
   margin: auto;
+}
+
+@media (min-width: 800px) {
+  .contenedor-tendencias {
+    margin-top: -390px;
+  }
+  .contenedor-tendencias-busqueda {
+    margin-top: 70px;
+  }
+}
+
+.compartir {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+.compartir2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 0px 20px 0px;
+  font-size: 13px;
+}
+
+.contenedor-iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+  margin: 20px 7px 0px 7px;
+  color: #b4b4b4;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
+  color: #572EE5;
 }
 
 * {

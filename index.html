@@ -11,19 +11,11 @@
 </head>
 <body>
     <header>
-        <div class="linea_cabecera"></div>
+        <div class="linea_cabecera" id="linea-cabecera"></div>
         <div class="contenedor-logo-menu">
-        <div class="container-logo">
-        <img src="imagenes/logo-desktop.svg" alt="logo" class="logo-desktop"></div>
+        <div class="container-logo"><a href="#linea-cabecera">
+        <img src="imagenes/logo-desktop.svg" alt="logo" class="logo-desktop"></a></div>
         <nav id="site-nav" class="site-nav">
-            <!-- <form id="search-form">
-                <input id="search-input-menu" type="text" placeholder="Busca GIFOS y más" autocomplete="off"><button id="searchBtn-menu">
-                    <img src="imagenes/icon-search.svg" alt="search" onclick="changeImage()" class="icon-search" id="icon-search-menu"></button>
-                </form>
-                <div id="container-sugerencias" class="container-sugerencias"></div>
-            <div id="contenedor-titulo-busqueda"></div>
-            <div id="results" class="results"></div>   
-            <div id="boton-vermas"></div> -->
             <ul>
                 <li><a href="">Modo nocturno</a></li>
                 <li><div class="linea-menu"></div></li>
@@ -41,7 +33,7 @@
     </header>
 
     <main>
-        <section class="container_titulo">
+        <section class="container_titulo" id="container_titulo">
             <div class="caja-titulo-mobile">
                 <h1 class="titulo1">Inspirate, busca,</h1> 
                 <h1 class="titulo1">guarda, y crea los</h1> 
@@ -67,6 +59,7 @@
             <p class="subtitulo-trending">Trending:</p>
             <div id="caja-texto-trending" class="caja-texto-trending"></div>
             </div>
+            <div id="contenedor-linea-divisora"></div>
             <div id="contenedor-titulo-busqueda"></div>
             <div id="results" class="results"></div>   
             <div id="boton-vermas"></div>
@@ -97,8 +90,20 @@
         </div>
         </section>
     </main>
+    <footer>
+        <p class="compartir">Compartir en:</p>
+        <div class="contenedor-iconos">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p class="compartir2">© GIFOS 2020 All Rights Reserved.</p>
+        <div class="linea_cabecera"></div>
+    </footer>
     <script src="javascript/menu.js"></script>
     <script src="javascript/busqueda.js"></script>
     <script src="javascript/trendings.js"></script>
+    <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+    <a href="https://icons8.com/icon/82853/menú"></a>
 </body>
 </html>
